@@ -1,0 +1,20 @@
+{
+"name": "input-router-desktop",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+   "scripts": {
+    "dev": "npm --prefix ui run dev",
+    "build": "npm --prefix ui run build",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.10.1"
+  }
+}

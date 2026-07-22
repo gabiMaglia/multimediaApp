@@ -1,0 +1,12 @@
+[package]
+name = "injector"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow.workspace = true
+log.workspace = true
+thiserror.workspace = true
+windows.workspace = true
+input-core = { path = "../input-core" }
+vigem-client = "0.1.4"

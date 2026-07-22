@@ -1,0 +1,13 @@
+[package]
+name = "input-core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde.workspace = true
+anyhow.workspace = true
+log.workspace = true
+windows.workspace = true
+
+rdev = "0.5"
+gilrs = "0.11"

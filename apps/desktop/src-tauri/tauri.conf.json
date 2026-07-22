@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Input Router",
+  "version": "0.1.0",
+  "identifier": "com.inputrouter.app",
+
+  "build": {
+    "frontendDist": "../ui/dist",
+    "devUrl": "http://localhost:5173"
+  },
+
+  "app": {
+    "windows": [
+      {
+        "title": "Input Router",
+        "width": 900,
+        "height": 600
+      }
+    ]
+  },
+
+  "bundle": {
+    "active": true,
+    "targets": "all"
+  }
+}
