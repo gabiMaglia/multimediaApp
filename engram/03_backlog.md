@@ -13,7 +13,7 @@
 ## Sprint 1 — Scaffold limpio
 | ID | Ext | Tarea | Asignado | Estado | Niv | Criterios de aceptación | Rama |
 |----|-----|-------|----------|--------|-----|--------------------------|------|
-| T-001 (*) | — | Limpiar el boilerplate: quitar crates input-router (input-core/injector/device-debugger) y módulos device/router/ipc/storage de src-tauri; renombrar productName→"multimediaApp" e identifier; limpiar Cargo workspace y deps de input (rdev/gilrs). | nerv-desktop* | To Do | S | `cargo build` OK sin los crates/módulos de input; la app abre una ventana vacía titulada multimediaApp; no quedan referencias a ViGEm/PostMessage/rdev/gilrs. | feature/T-001-scaffold-cleanup |
+| T-001 (*) | — | Limpiar el boilerplate: quitar crates input-router (input-core/injector/device-debugger) y módulos device/router/ipc/storage de src-tauri; renombrar productName→"multimediaApp" e identifier; limpiar Cargo workspace y deps de input (rdev/gilrs). | nerv-desktop (Rust, DT-02) | En progreso | S | `cargo build` OK sin los crates/módulos de input; la app abre una ventana vacía titulada multimediaApp; no quedan referencias a ViGEm/PostMessage/rdev/gilrs. | feature/T-001-scaffold-cleanup |
 | T-002 | — | Estructura del frontend React+Vite: carpetas por feature (screaming/atomic), layout base, routing entre las 3 pantallas (Transcribir / Convertir / Link), tema claro-oscuro. Sin diseño final aún. | nerv-web | To Do | A | Vite corre; navegación entre 3 pantallas placeholder; estructura de carpetas por feature documentada. | feature/T-002-frontend-scaffold |
 
 ## Sprint 2 — Design system (PhotoCut)
@@ -52,6 +52,6 @@
 | ID | Descripción | Origen | Prioridad |
 |----|-------------|--------|-----------|
 | DT-01 | El boilerplate trae crates de input-router (ViGEm/PostMessage/device-debugger) irrelevantes; se limpian en T-001. | Alta 2026-07-22 | Media (resuelve T-001) |
-| DT-02 | El roster NERV no tiene agente Rust/Tauri dedicado (es Python/PySide6, web, Nest, mobile). Los tickets (*) necesitan un ejecutor Rust — decidir: re-scopear nerv-desktop a Rust, usar agente general, o el PO los toma. | Planificación 2026-07-22 | Alta (bloquea Sprint 1 y 3/5/6) |
+| DT-02 | RESUELTA 2026-07-22: PO decidió re-scopear nerv-desktop a Rust/Tauri para este proyecto. Los tickets (*) los ejecuta nerv-desktop. | Planificación 2026-07-22 | Resuelta |
 
 ## Histórico (sprints cerrados: 3 líneas c/u, máx. 5; el resto a ~/.nerv/archive/)
