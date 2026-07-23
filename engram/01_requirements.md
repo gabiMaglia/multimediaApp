@@ -10,7 +10,7 @@ App multimedia de escritorio (offline, Tauri) que transcribe audio/video con Whi
 | F-02 | Conversión de formato con ffmpeg (mp3/wav/mp4/mpeg) sobre archivo del usuario | Must | Core hecho (web), a portar |
 | F-03 | UI React siguiendo el diseño de PhotoCutOnline | Must | No iniciado |
 | F-04 | Empaquetado desktop offline (Tauri, instalador) | Must | No iniciado |
-| F-05 | Descarga/transcripción desde link YouTube/IG (yt-dlp) | Could | Core hecho (web); scope v1 a confirmar (caveat legal) |
+| F-05 | Descarga/transcripción desde link YouTube/IG (yt-dlp) | Should | IN para v1 (PO confirmó scope de 3, 2026-07-22). Core hecho (web), a portar. Caveat legal RN-02. |
 
 ## 3. Fuera de alcance (OUT)
 - (a definir al cerrar el scope de planificación)
@@ -29,4 +29,4 @@ App multimedia de escritorio (offline, Tauri) que transcribe audio/video con Whi
 ## 6. Preguntas abiertas al PO
 | # | Pregunta | Estado |
 |---|----------|--------|
-| 1 | ¿El v1 de escritorio incluye la descarga desde links de YouTube/IG (F-05), o el desktop se limita a transcribir+convertir archivos propios y el link queda sólo para uso local/web? | Abierta |
+| 1 | ¿El v1 de escritorio incluye la descarga desde links de YouTube/IG (F-05)? | RESUELTA 2026-07-22 → SÍ. Scope v1 = las 3 funciones. Riesgo legal RN-02 aceptado por el PO. |
